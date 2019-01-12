@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 soong_namespace {
     imports: ["hardware/qcom/bootctrl"],
 }
+=======
+subdirs = [
+    "consumerir",
+    "light",
+    "usb",
+]
+>>>>>>> 803da01... tissot: add basic usb hals that report no status change
