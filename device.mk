@@ -105,3 +105,8 @@ $(call inherit-product, build/target/product/verity.mk)
 # Camera
 PRODUCT_PACKAGES += \
     Gcam
+
+# USB HAL
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.xiaomi_8996
+
