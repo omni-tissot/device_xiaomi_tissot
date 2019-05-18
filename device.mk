@@ -105,3 +105,7 @@ $(call inherit-product, build/target/product/verity.mk)
 # Camera
 PRODUCT_PACKAGES += \
     Gcam
+
+# Webview
+PRODUCT_PACKAGES += \
+    Webview
