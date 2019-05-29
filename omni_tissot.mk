@@ -31,6 +31,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/CarrierConfig
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tissot
